@@ -22,6 +22,8 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import repository.CustomerRepository;
 import repository.ICustomerRepository;
+import service.CustomerService;
+import service.ICustomerService;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
